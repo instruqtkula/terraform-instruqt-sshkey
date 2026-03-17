@@ -2,7 +2,7 @@
 
 A wrapper module to generate an SSH key and export the public
 and private parts, for use in an Instruqt
-[https://docs.instruqt.com/sandboxes/manage/custom-resources](custom resource)
+[custom resource](https://docs.instruqt.com/sandboxes/manage/custom-resources)
 
 **NOTE**: This is not an official product of Instruqt, and it is
 not officially supported.
