@@ -1,6 +1,6 @@
-output "ssh_private_key" {
-  value       = resource.tls_private_key.this.private_key_openssh
-  description = "Private key in OpenSSH key form"
+output "ssh_private_key_base64" {
+  value       = base64encode(resource.tls_private_key.this.private_key_openssh)
+  description = "Private key in OpenSSH key form, Base64 encoded to preserve linebreaks"
   sensitive   = true
 }
 
